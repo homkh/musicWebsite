@@ -1,0 +1,75 @@
+.conainer {
+    background-image: url('../../public/bg.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: auto;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-sizing: border-box;
+}
+
+.textContain {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.textContain h1 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    gap: 13px;
+    /* justify-content: space-between; */
+}
+
+.feedbackitem {
+    cursor: pointer;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    box-shadow: 5px 5px 14px rgba(255, 255, 255, 0.822);
+}
+
+.feedbackitem h3 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.feedbackitem p {
+    margin-bottom: 10px;
+}
+
+.feedbackitem :nth-child(3) {
+    font-style: italic;
+}
+
+.cardSection {
+    padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .conainer {
+        height: 820px;
+    }
+}

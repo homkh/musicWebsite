@@ -1,0 +1,39 @@
+.navbsec {
+    padding: 13px 0;
+    max-width: 400px;
+    background-color: rgba(75, 72, 72, 0.829);
+    ;
+    margin: 12px auto;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 7px 5px 23px #000000f8;
+
+}
+
+.ulitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.ulitems>li {
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.ulitems :nth-child(1) {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and(max-width: 600px) {
+    .navbsec {
+        padding: 9px 0;
+        width: 336px;
+        margin: 12px auto;
+    }
+}

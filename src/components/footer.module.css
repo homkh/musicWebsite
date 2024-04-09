@@ -1,0 +1,84 @@
+.footerContainer {
+    min-height: 285px;
+    background-image: linear-gradient(to right, #011518, #545658, #011518, #4b4949);
+    width: 100%;
+    color: whitesmoke;
+}
+
+.container {
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+}
+
+.card>h3 {
+    text-decoration: underline;
+    color: #CF7500;
+}
+
+.listItem li {
+    list-style-type: none;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hrline{
+    height: 3px;
+    background-color: #CF7500;
+    max-width: 70%;
+    margin: 7px auto;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        padding-top: 17px;
+        gap: 21px;
+    }
+
+.card {
+    height: fit-content;
+}
+
+.copyright {
+    padding-top: 11px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card>h3 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card>p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.listItem li {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card>li {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card ul li {
+    font-size: 13px;
+    font-weight: 300;
+}
+}
